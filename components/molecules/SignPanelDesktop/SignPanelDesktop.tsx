@@ -11,25 +11,24 @@ const SignPanelWrapper = styled.ul`
   justify-content: flex-start;
 `;
 
-
 export const SignPanelDesktop = () => {
-    return (
-        <SignPanelWrapper>
-            <li>
-                <Link href={ "https://demo.trailofsales.com/" } passHref>
-                    <ButtonDashboard>Demo App</ButtonDashboard>
-                </Link>
-            </li>
-            <li>
-                <Link href={ "/login" } passHref>
-                    <ButtonLogin>Log In</ButtonLogin>
-                </Link>
-            </li>
-            <li>
-                <Link href={ "/signup" } passHref>
-                    <ButtonSignUp>Sign Up</ButtonSignUp>
-                </Link>
-            </li>
-        </SignPanelWrapper>
-    );
+  return (
+    <SignPanelWrapper>
+      <li>
+        <Link href={"https://trail-dashboard.vercel.app/"} passHref>
+          <ButtonDashboard>Demo App</ButtonDashboard>
+        </Link>
+      </li>
+      <li>
+        <Link href={"/login"} passHref>
+          <ButtonLogin>Log In</ButtonLogin>
+        </Link>
+      </li>
+      <li>
+        <Link href={"/signup"} passHref>
+          <ButtonSignUp>Sign Up</ButtonSignUp>
+        </Link>
+      </li>
+    </SignPanelWrapper>
+  );
 };
