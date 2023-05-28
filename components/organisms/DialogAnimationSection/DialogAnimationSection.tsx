@@ -35,7 +35,7 @@ export const DialogAnimationSection = () => {
             trigger: animation,
             start: "top 90%",
             onEnter: () => setAnimationActive(true),
-            onEnterBack: () => setAnimationActive(false),
+            onEnterBack: () => setAnimationActive(true),
           },
         }
       );
