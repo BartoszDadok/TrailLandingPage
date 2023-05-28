@@ -1,6 +1,7 @@
-import Lottie from "react-lottie-wrapper";
+import Lottie from "lottie-react";
 import dialogAnimation from "./DialogAnimationData";
 import styled from "styled-components";
+import { useEffect, useRef } from "react";
 
 const WrapperAnimation = styled.div`
   margin: -2em auto 0 auto;
@@ -10,26 +11,32 @@ const WrapperAnimation = styled.div`
   max-height: 100%;
 `;
 
+function DialogAnimation({ animationActive }: { animationActive: boolean }) {
+  const lottieRef = useRef<any>();
 
-function DialogAnimation({ state }: { state: { isStopped: boolean, isPaused: boolean } }) {
-    const defaultOptions = {
-        loop: false,
-        autoplay: false,
-        isPaused: true,
-        isStopped: true,
-        animationData: dialogAnimation,
-        rendererSettings: { preserveAspectRatio: "xMidYMid slice" },
-    };
-    console.log(state);
-    return (
-        <>
-            <WrapperAnimation>
-                <Lottie tabIndex={ -1 } options={ defaultOptions }
-                             isStopped={ state.isStopped }
-                             isPaused={ state.isPaused }/>
-            </WrapperAnimation>
-        </>
-    );
+  useEffect(() => {
+    if (!lottieRef) return;
+    if (!lottieRef.current) return;
+
+    if (!animationActive) {
+      lottieRef.current.stop();
+    } else {
+      lottieRef.current.play();
+    }
+  }, [animationActive]);
+
+  return (
+    <>
+      <WrapperAnimation>
+        <Lottie
+          animationData={dialogAnimation}
+          autoPlay={false}
+          lottieRef={lottieRef}
+          loop={false}
+        />
+      </WrapperAnimation>
+    </>
+  );
 }
 
 export default DialogAnimation;

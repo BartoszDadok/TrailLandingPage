@@ -1,20 +1,15 @@
-import Lottie from "react-lottie-wrapper";
+import Lottie from "lottie-react";
 import animationData from "./HeroAnimationData";
 import { WrapperAnimation } from "../HeroAnimation/HeroAnimation";
 
 function HeroAnimation() {
-    const defaultOptions = {
-        loop: false,
-        autoplay: true,
-        animationData: animationData,
-    };
-    return (
-        <>
-            <WrapperAnimation>
-                <Lottie options={ defaultOptions }/>
-            </WrapperAnimation>
-        </>
-    );
+  return (
+    <>
+      <WrapperAnimation>
+        <Lottie loop={false} autoPlay={true} animationData={animationData} />
+      </WrapperAnimation>
+    </>
+  );
 }
 
 export default HeroAnimation;

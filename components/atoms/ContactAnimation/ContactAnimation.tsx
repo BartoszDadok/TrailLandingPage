@@ -1,4 +1,4 @@
-import Lottie from "react-lottie-wrapper";
+import Lottie from "lottie-react";
 import React from "react";
 import animationData from "./ContactAnimationData";
 import styled from "styled-components";
@@ -9,17 +9,11 @@ const WrapperAnimation = styled.div`
 `;
 
 export const ContactAnimation = () => {
-    const defaultOptions = {
-        loop: false,
-        autoplay: true,
-        animationData: animationData,
-    };
-    return (
-        <>
-            <WrapperAnimation>
-                <Lottie options={ defaultOptions }/>
-            </WrapperAnimation>
-        </>
-    );
-    
-}
+  return (
+    <>
+      <WrapperAnimation>
+        <Lottie loop={false} autoPlay={true} animationData={animationData} />
+      </WrapperAnimation>
+    </>
+  );
+};

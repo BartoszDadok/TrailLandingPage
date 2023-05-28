@@ -1,7 +1,7 @@
 import React from "react";
-import Lottie from "react-lottie-wrapper";
 import animationData from "./HeroAnimationData";
 import styled from "styled-components";
+import Lottie from "lottie-react";
 
 export const WrapperAnimation = styled.div`
   width: 100%;
@@ -12,19 +12,19 @@ export const WrapperAnimation = styled.div`
 `;
 
 function HeroAnim() {
-    const defaultOptions = {
-        loop: false,
-        autoplay: true,
-        animationData: animationData,
-        rendererSettings: { preserveAspectRatio: "xMidYMid slice" }
-    };
-    return (
-        <>
-            <WrapperAnimation>
-                <Lottie tabIndex={ -1 } options={ defaultOptions }/>
-            </WrapperAnimation>
-        </>
-    );
+  return (
+    <>
+      <WrapperAnimation>
+        <Lottie
+          tabIndex={-1}
+          loop={false}
+          autoPlay={true}
+          animationData={animationData}
+          rendererSettings={{ preserveAspectRatio: "xMidYMid slice" }}
+        />
+      </WrapperAnimation>
+    </>
+  );
 }
 
 export default HeroAnim;
