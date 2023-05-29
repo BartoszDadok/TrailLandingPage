@@ -30,7 +30,7 @@ You would like to know which article and pages on your blog convinced users to b
 
 **With this information, you can see which pages you should promote more than others.**
 
-### Problems and solutions:
+## Problems and solutions:
 - **First problem** -
 Theoretically you can use Google Analytics or similar tools to do that, but in practice, there is no easy way to set up Google Analytcis to track only paying users. You have to have the technical knowledge to set up a tool that works that way.
 
