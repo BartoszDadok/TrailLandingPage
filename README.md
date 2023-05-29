@@ -84,7 +84,7 @@ There are two ways to run frontend on your local machine:
    ```sh
    npm run dev
    ```
-   After runnning this command you will see the **Trail** landing page.
+   After running this command you will see the **Trail** landing page.
 
 
 ### Local installation - Dashboard
