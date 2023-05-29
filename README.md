@@ -1,9 +1,9 @@
 # Trail - Increase your sales!
 
 ## About The Project
-**Trail** is a project which will help increase sales, escpecially for blogers who sell their own products. **I only created the frontend side of this project for now.** You can see the frontend but the backend of the project is still a work in progress.
+**Trail** is a project which will help increase sales, especially for bloggers who sell their own products. **I only created the frontend side of this project for now.** You can see the frontend but the backend of the project is still a work in progress.
 
-**Trail** it is a demo project with dummy data. 
+**Trail** is a demo project with dummy data. 
 
 **A quick preview of the Trail Landing Page:**
 
@@ -20,21 +20,21 @@
 
 
 ## How I came up with the idea for Trail.
-I worked in marketing and it was very hard to find a tool to track only converted users. Imgaine that you run a blog and sell products such as books, online tutorials and so on.
-In order to increase sales you want to know evertyhing about the people who already bought your products. You would like to know which article and pages on your blog convinced users to buy your products. You would like to have a full paying user`s path from first visit until they buy a product advertised on your blog.
+I worked in marketing and it was very hard to find a tool to track only converted users. Imagine that you run a blog and sell products such as books, online tutorials and so on.
+In order to increase sales you want to know everything about the people who already bought your products. You would like to know which article and pages on your blog convinced users to buy your products. You would like to have a full-paying user`s path from the first visit until they buy a product advertised on your blog.
 
 ![graphs](https://github.com/BartoszDadok/TrailLandingPageFrontend/assets/101389945/8d577aad-57a8-453e-88dc-cf0c43fa1eb3)
 
-With this information you can see which pages you should promote more than others.
+With this information, you can see which pages you should promote more than others.
 
 ### Problems and solutions:
 - **First problem** -
-Theoretically you can use Google Analytics or similar tools to do that, but in practice there is no easy way to set up google analitcis to track only paying users. You have to have the technical knowledge to set up a tool that works that way.
+Theoretically you can use Google Analytics or similar tools to do that, but in practice, there is no easy way to set up Google Analytcis to track only paying users. You have to have the technical knowledge to set up a tool that works that way.
 
 - **Second problem** - 
-Using cookies and tracking people between different domains. Blogers use their blogs most often only to create articles. The selling pages are usally placed on diffrent domains and subdomains. Without specific knowledge about Cookies and CORS it's almost impossible to track your customers. Tools like Google Analytics and Yandex Metrica do not make it easy to track this information between domains.
+Using cookies and tracking people between different domains. Bloggers use their blogs most often only to create articles. The selling pages are usually placed on different domains and subdomains. Without specific knowledge about Cookies and CORS it's almost impossible to track your customers. Tools like Google Analytics and Yandex Metrica do not make it easy to track this information between domains.
 
-This tool potentially can show the full paths of converted users, working between domains and subdomains, with understanable configurations adjusted for ease of use.  
+This tool potentially can show the full paths of converted users, working between domains and subdomains, with understandable configurations adjusted for ease of use.  
 
 ## Built With:
 **Frontend Landing Page:**
@@ -99,7 +99,7 @@ There are two ways to run frontend on your local machine:
    ```sh
    npm start
    ```
-   After runnning this command you will see the **Trail** dashboard page.
+   After running this command you will see the **Trail** dashboard page.
 
 ## Links to all Trail`s Repositories:
 - Landing Page- https://github.com/BartoszDadok/TrailLandingPageFrontend.git
