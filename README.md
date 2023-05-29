@@ -63,7 +63,7 @@ This tool potentially can show the full paths of converted users, working betwee
 
 There are two ways to run frontend on your local machine:
 
-1. You can just click the links below:.
+1. You can just click the links below:
 - Trail Landing Page - https://trail-landing-page.vercel.app/
 - Trail Dashboard - https://trail-dashboard.vercel.app/
 
