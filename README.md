@@ -20,12 +20,15 @@
 
 
 ## How I came up with the idea for Trail.
-I worked in marketing and it was very hard to find a tool to track only converted users. Imagine that you run a blog and sell products such as books, online tutorials and so on.
-In order to increase sales you want to know everything about the people who already bought your products. You would like to know which article and pages on your blog convinced users to buy your products. You would like to have a full-paying user`s path from the first visit until they buy a product advertised on your blog.
+I worked in marketing and it was very hard to find a tool to track only converted users. 
+
+Imagine that you run a blog and sell products such as books, online tutorials and so on. In order to increase sales you want to know everything about the people who already bought your products.
+
+You would like to know which article and pages on your blog convinced users to buy your products. You would like to have a full-paying user`s path from the first visit until they buy a product advertised on your blog.
 
 ![graphs](https://github.com/BartoszDadok/TrailLandingPageFrontend/assets/101389945/8d577aad-57a8-453e-88dc-cf0c43fa1eb3)
 
-With this information, you can see which pages you should promote more than others.
+**With this information, you can see which pages you should promote more than others.**
 
 ### Problems and solutions:
 - **First problem** -
