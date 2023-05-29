@@ -35,7 +35,7 @@ You would like to know which articles and pages on your blog convinced users to 
 Theoretically you can use Google Analytics or similar tools to do that, but in practice, there is no easy way to set up Google Analytics to track only paying users. You have to have the technical knowledge to set up a tool that works that way.
 
 - **Second problem** - 
-Using cookies and tracking people between different domains. Bloggers use their blogs most often only to create articles. The selling pages are usually placed on different domains and subdomains. Without specific knowledge about Cookies and CORS it's almost impossible to track your customers. Tools like Google Analytics and Yandex Metrica do not make it easy to track this information between domains.
+Using cookies and tracking people between different domains. Bloggers use their blogs most often only to create articles. The selling pages are usually placed on different domains and subdomains. Without specific knowledge about Cookies and CORS, it's almost impossible to track your customers. Tools like Google Analytics and Yandex Metrica do not make it easy to track this information between domains.
 
 This tool potentially can show the full paths of converted users, working between domains and subdomains, with understandable configurations adjusted for ease of use.  
 
