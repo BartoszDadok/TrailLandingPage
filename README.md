@@ -1,16 +1,16 @@
 # Trail - Increase your sales!
 
 ## About The Project
-**Trail** is a project which is going to help increase the sell, is escpecially addressed to blogers who sell own products. **I created only frontend side of this project for now.** You can see frontend but you can`t use my tool in real life to increase your sell, there is no real backend, no engine colecting and processing data.
+**Trail** is a project which will help increase sales, escpecially for blogers who sell their own products. **I onnly created frontend side of this project for now.** You can see the frontend but the backend of the project is still a work in progress.
 
 **Trail** it is a demo project with dummy data. 
 
-**Qucik preview of Trail Landing Page:**
+**A quick preview of the Trail Landing Page:**
 
 ![landingPageGIF](https://github.com/BartoszDadok/TrailLandingPageFrontend/assets/101389945/1f4ffd48-7fa0-4107-81d1-538e64fc856c)
 
 
-**Qucik preview of Dashboard Page:**
+**A quick preview of the Dashboard Page:**
 
 ![dashboardGIF](https://github.com/BartoszDadok/TrailLandingPageFrontend/assets/101389945/ec1ad49e-3e26-4b08-a804-09d8fe59b26f)
 
@@ -18,24 +18,23 @@
 - Trail Landing Page - https://trail-landing-page.vercel.app/
 - Trail Dashboard - https://trail-dashboard.vercel.app/
 
-## From problems to the idea
 
-### How the idea to create Trail came up?
-I worked in marketing and it was very hard to find a tool to track only converted users. Imgaine that you run a blog and sell there some products such as books, online tutorials and so on. Every day you sell some products and you want to increase your sell results. 
-In order to do that you want to know evertyhing about people, who already bought some your products. I would like to especially know which article and pages on my blog convinced users to buy my products. I would like to have a full paying user`s path from first visit untill the sell on my blog. 
+## How I came up with the idea for Trail.
+I worked in marketing and it was very hard to find a tool to track only converted users. Imgaine that you run a blog and sell products such as books, online tutorials and so on.
+In order to increase sales you want to know evertyhing about the people who already bought your products. You would like to know which article and pages on your blog convinced users to buy your products. You would like to have a full paying user`s path from first visit until they buy a product advertised on your blog.
 
 ![graphs](https://github.com/BartoszDadok/TrailLandingPageFrontend/assets/101389945/8d577aad-57a8-453e-88dc-cf0c43fa1eb3)
 
-Knowing that I can see which pages I should promote more than other.
+With this informations you can see which pages you should promote more than others.
 
-### Real problems:
+### Problems and solutions:
 - **First problem** -
-Theoretically I can use Google Analytics or similar tools to do that, but in practice there is no easy way to set up google analitcis to track only paying users. You have to have technical knowledge to set up a tool to be working that way.
+Theoretically you can use Google Analytics or similar tools to do that, but in practice there is no easy way to set up google analitcis to track only paying users. You have to have the technical knowledge to set up a tool that works that way.
 
 - **Second problem** - 
-Next big problems are cookies and tracking people between different domains. Blogers use most often blog only to create articles, but selling pages are usally placed on diffrent domains and subdomains. Without specific knowledge about Cookies, CORS, it is almost impossible to properly configure cookies to be able to track customers everywhere on your sites with tools like Google Analytics, Yandex Metrica and so on.
+Teh next big problem is cookies and tracking people between different domains. Blogers use their blogs most often only to create articles. The selling pages are usally placed on diffrent domains and subdomains. Without specific knowledge about Cookies and CORS it is almost impossible to track customers on your sites. Tools like Google Analytics and Yandex Metrica do not make it easy to track this information between domains.
 
-I met these problems and I would love to have a tool like this. The tool which can show full paths of converted users, working between domains and subdomains with easy and understanable configuration adjusted to non-technical peoples.  
+This tool potentially can show the full paths of converted users, working between domains and subdomains, with understanable configurations adjusted for ease of use.  
 
 ## Built With:
 **Frontend Landing Page:**
@@ -59,7 +58,7 @@ I met these problems and I would love to have a tool like this. The tool which c
 
 ## Getting Started
 
-There are two ways run frontend on your local machine:
+There are two ways to run frontend on your local machine:
 
 1. You can just click the links below:.
 - Trail Landing Page - https://trail-landing-page.vercel.app/
@@ -116,5 +115,3 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 - Email - bartoszdadok@gmail.com
 - My Youtube Channel - [Youtube](https://www.youtube.com/@wannabeIT)
 - LinkedIn - [LinkedIn](https://www.linkedin.com/in/bartoszdadok/)
-
-
